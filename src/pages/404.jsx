@@ -1,5 +1,5 @@
 import React from "react"
-import { LargeSplash } from "../styles/fourohfour.js"
+import { LargeSplash } from "../styles/404.js"
 import { Paragraph } from "../styles/index.js"
 import {
   BasicButton,
