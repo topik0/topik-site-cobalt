@@ -10,6 +10,7 @@ export const Paragraph = styled.p`
   font-size: 26px;
   line-height: 1.3;
   width: 70%;
+  text-align: ${props => (props.align ? props.align : "left")};
 `
 export const Logo = styled.img`
   width: 50%;
