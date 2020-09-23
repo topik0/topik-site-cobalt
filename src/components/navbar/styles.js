@@ -6,7 +6,7 @@ export const NavbarContainer = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
-  position: absolute;
+  position: ${props => (props.nonabsolute ? "static" : "absolute")};
   background-color: ${props => (props.theme === "dark" ? "#111" : "#fff")};
 `
 export const NavbarChild = styled.div`
