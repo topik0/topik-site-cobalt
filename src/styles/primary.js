@@ -29,7 +29,6 @@ export const BasicButton = styled(Link)`
   width: 150px;
   height: 50px;
   color: #222;
-  border-radius: 12px;
   margin: ${props => (props.margin ? props.margin : "none")};
   text-decoration: none;
   user-select: none;
@@ -52,4 +51,9 @@ export const BasicButtonExternal = styled(BasicButton).attrs({
 })``
 export const ButtonText = styled.p`
   font-size: 20px;
+`
+export const MediumSplash = styled.p`
+  font-weight: 900;
+  font-size: 150px;
+  margin-bottom: 20px;
 `
