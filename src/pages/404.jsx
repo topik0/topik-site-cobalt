@@ -15,7 +15,7 @@ export default function FourOFour() {
       width="100%"
       direction="column"
     >
-      <LargeSplash size="300px">404</LargeSplash>
+      <LargeSplash>404</LargeSplash>
       <Paragraph align="center">
         The page you're looking for doesn't.. well.. exist
       </Paragraph>
