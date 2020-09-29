@@ -1,4 +1,4 @@
-export const SplashBio = `I'm a front-end web developer from Chicago with a strong passion for technology and code. I have serveral years of experience with making websites for projects and clients.`
+export const SplashBio = `I'm a front-end web developer from Chicago with a strong passion for technology and code. I have several years of experience with making websites for projects and clients.`
 export const AboutBio = `I am an experienced web developer from Chicago with a strong passion for technology and programming. I've been programming since I was ten and I have (hopefully) gotten much better since. I started programming by making basic websites and web applications for school and myself. Now, I am taking on many projects for clients and solutions that can help many people. One of my main goals is to solve problems that I've had trouble with. Check out my projects if you'd like to see what I'm working on or my past projects, and feel free to join my Discord or email me if you'd like to chat.
 `
 export const SkillsetBio = [
