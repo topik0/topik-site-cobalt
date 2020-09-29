@@ -7,6 +7,9 @@ export const MainContainer = styled.div`
   width: 100%;
   height: 100vh;
   color: #222;
+  @media (orientation: portrait) {
+    flex-direction: column;
+  }
 `
 export const Container = styled.div`
   display: flex;
@@ -20,11 +23,16 @@ export const Container = styled.div`
   position: ${props => (props.position ? props.position : "static")};
   z-index: ${props => (props.zindex ? props.zindex : "auto")};
 `
+export const FullHeightContainer = styled.div`
+  display: flex;
+  height: 100vh;
+`
 export const BasicButton = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;
   border: 2px solid #222;
+  border-radius: 3px;
   background-color: #fff;
   width: 150px;
   height: 50px;
@@ -53,7 +61,8 @@ export const ButtonText = styled.p`
   font-size: 20px;
 `
 export const MediumSplash = styled.p`
+  text-align: center;
   font-weight: 900;
-  font-size: 150px;
+  font-size: 100px;
   margin-bottom: 20px;
 `
