@@ -2,7 +2,7 @@
   "name": "topik-site-graphene",
   "private": true,
   "description": "The official website for Topik",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
@@ -17,10 +17,12 @@
     "babel-plugin-styled-components": "^1.11.1",
     "gatsby": "^2.24.50",
     "gatsby-plugin-manifest": "^2.4.27",
+    "gatsby-plugin-offline": "^3.2.29",
     "gatsby-plugin-styled-components": "^3.3.10",
     "gatsby-telemetry": "^1.3.32",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
