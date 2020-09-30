@@ -2,7 +2,6 @@ import React from "react"
 import {
   ButtonText,
   BasicButtonExternal,
-  Container,
 } from "../styles/primary.js"
 import Navbar from "../components/navbar/navbar.jsx"
 import { LinksContainer, LinksSubcontainer } from "../styles/links.js"
