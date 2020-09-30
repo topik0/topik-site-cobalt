@@ -11,8 +11,12 @@ export const NavbarContainer = styled.div`
     position: static;
     top: 0;
   }
+  @media only screen and (min-device-width: 480px) and (max-device-width: 900px) and (orientation: landscape) {
+    justify-content: center;
+  }
   position: ${props => (props.nonabsolute ? "static" : "absolute")};
-  background-color: ${props => (props.theme === "dark" ? "#111" : "transparent")};
+  background-color: ${props =>
+    props.theme === "dark" ? "#111" : "transparent"};
 `
 export const NavbarChild = styled.div`
   display: flex;
@@ -21,6 +25,10 @@ export const NavbarChild = styled.div`
   position: absolute;
   max-width: 500px;
   @media (orientation: portrait) {
+    margin-left: 0;
+    justify-content: center;
+  }
+  @media only screen and (min-device-width: 480px) and (max-device-width: 900px) and (orientation: landscape) {
     margin-left: 0;
     justify-content: center;
   }
