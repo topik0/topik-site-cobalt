@@ -2,21 +2,25 @@
   font-family: "Noto Serif KR";
   font-weight: 400;
   src: local("Noto Serif KR"), url("/src/fonts/NotoSerifKR-Regular.woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: "Noto Serif KR";
   font-weight: 500;
   src: local("Noto Serif KR"), url("/src/fonts/NotoSerifKR-Medium.woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: "Noto Serif KR";
   font-weight: 700;
   src: local("Noto Serif KR"), url("/src/fonts/NotoSerifKR-Bold.woff2");
+  font-display: swap;
 }
 @font-face {
   font-family: "Noto Serif KR";
   font-weight: 900;
   src: local("Noto Serif KR"), url("/src/fonts/NotoSerifKR-Black.woff2");
+  font-display: swap;
 }
 html,
 body,
