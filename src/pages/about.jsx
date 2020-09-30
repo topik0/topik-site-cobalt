@@ -8,11 +8,16 @@ import {
   CardTitle,
   CardBody,
 } from "../styles/about.js"
-import { AboutBio, SkillsetBio, RigBio } from "../constants/text"
+import { AboutBio, SkillsetBio, RigBio, description } from "../constants/text"
+import { Helmet } from "react-helmet"
 
 export default function About() {
   return (
     <AboutContainer>
+      <Helmet>
+        <title>About - Topik Tech</title>
+        <meta name="description" content={description}/>
+      </Helmet>
       <Navbar nonabsolute theme="dark" page="About Me" />
         <ParentCardContainer>
           <CardContainer>

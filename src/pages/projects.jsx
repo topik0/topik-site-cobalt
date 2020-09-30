@@ -6,6 +6,7 @@ import {
   Container,
   MediumSplash,
 } from "../styles/primary.js"
+import { Helmet } from "react-helmet"
 
 export default function Projects() {
   return (
@@ -15,6 +16,9 @@ export default function Projects() {
       width="100%"
       direction="column"
     >
+      <Helmet>
+        <title>Coming Soon</title>
+      </Helmet>
       <MediumSplash>Coming Soon</MediumSplash>
       <Paragraph align="center">I'm still working on this page</Paragraph>
       <BasicButton to="/" margin="30px">

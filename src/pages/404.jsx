@@ -6,6 +6,7 @@ import {
   ButtonText,
   Container
 } from "../styles/primary.js"
+import { Helmet } from "react-helmet"
 
 export default function FourOFour() {
   return (
@@ -15,6 +16,10 @@ export default function FourOFour() {
       width="100%"
       direction="column"
     >
+      <Helmet>
+        <title>404 - Page not found</title>
+        <meta type="description" content="The page you are looking for doesn't exist"/>
+      </Helmet>
       <LargeSplash>404</LargeSplash>
       <Paragraph align="center">
         The page you're looking for doesn't.. well.. exist

@@ -10,13 +10,18 @@ import {
   WhiteContainer,
 } from "../styles/index.js"
 import { MainContainer } from "../styles/primary.js"
-import { SplashBio } from "../constants/text"
+import { description, SplashBio } from "../constants/text"
 import logoSrc from "../images/favicon.svg"
 import Navbar from "../components/navbar/navbar.jsx"
+import { Helmet } from "react-helmet"
 
 export default function Home() {
   return (
     <MainContainer>
+      <Helmet>
+        <title>Hey, I'm Topik</title>
+        <meta name="description" content={description}/>
+      </Helmet>
       <Navbar page="Home" />
       <LeftContainer>
         <TextContainer>
