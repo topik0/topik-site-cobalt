@@ -6,6 +6,7 @@ import {
   ButtonText,
   Container
 } from "../styles/primary.js"
+import logoSrc from "../images/favicon.svg"
 import { Helmet } from "react-helmet"
 
 export default function FourOFour() {
@@ -19,6 +20,17 @@ export default function FourOFour() {
       <Helmet>
         <title>404 - Page not found</title>
         <meta type="description" content="The page you are looking for doesn't exist"/>
+        <meta name="theme-color" content="#111" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://topik.tech/" />
+        <meta property="og:title" content="404 - Topik Tech" />
+        <meta property="og:description" content="The page you are looking for doesn't exist" />
+        <meta property="og:image" content={logoSrc} />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://topik.tech/" />
+        <meta property="twitter:title" content="404 - Topik Tech" />
+        <meta property="twitter:description" content="The page you are looking for doesn't exist" />
+        <meta property="twitter:image" content={logoSrc} />
       </Helmet>
       <LargeSplash>404</LargeSplash>
       <Paragraph align="center">
