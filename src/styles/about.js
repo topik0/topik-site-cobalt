@@ -11,14 +11,24 @@ export const AboutContainer = styled.div`
 `
 export const ParentCardContainer = styled.div`
   display: flex;
-  align-items: center;
-  width: 30%;
+  justify-content: center;
+  min-height: 800px;
+  max-width: 600px;
+  @media (orientation: portrait) {
+    min-height: 400px;
+  }
+  @media only screen and (min-device-width: 480px) and (max-device-width: 900px) and (orientation: landscape) {
+    min-height: 0;
+  }
 `
 export const CardContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   margin: 60px;
+  @media (orientation: portrait) {
+    margin: 30px;
+  }
 `
 export const CardTitle = styled.p`
   font-size: 59px;

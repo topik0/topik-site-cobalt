@@ -9,3 +9,7 @@ export const LinksContainer = styled.div`
   color: #222;
   flex-flow: wrap;
 `
+export const LinksSubcontainer = styled.div`
+  display: flex;
+  flex-direction: column;
+`
