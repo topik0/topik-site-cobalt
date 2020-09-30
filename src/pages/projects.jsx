@@ -4,7 +4,7 @@ import {
   BasicButton,
   ButtonText,
   Container,
-  MediumSplash
+  MediumSplash,
 } from "../styles/primary.js"
 
 export default function Projects() {
@@ -15,10 +15,8 @@ export default function Projects() {
       width="100%"
       direction="column"
     >
-      <MediumSplash >Coming Soon</MediumSplash>
-      <Paragraph align="center">
-        I'm still working on this page
-      </Paragraph>
+      <MediumSplash>Coming Soon</MediumSplash>
+      <Paragraph align="center">I'm still working on this page</Paragraph>
       <BasicButton to="/" margin="30px">
         <ButtonText>Go Home</ButtonText>
       </BasicButton>
