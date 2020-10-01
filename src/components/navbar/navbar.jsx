@@ -8,8 +8,8 @@ class Navbar extends Component {
     const theme = this.props.theme
     const nonabsolute = this.props.nonabsolute
     return (
-      <NavbarContainer theme={theme} nonabsolute={nonabsolute}>
-        <NavbarChild theme={theme}>
+      <NavbarContainer theme={theme} nonabsolute={nonabsolute} page={page}>
+        <NavbarChild theme={theme} page={page}>
           {links.map(lnk => (
             <div>
               {page !== lnk.label ? (

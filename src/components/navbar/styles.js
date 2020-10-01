@@ -12,7 +12,7 @@ export const NavbarContainer = styled.div`
     top: 0;
   }
   @media only screen and (min-device-width: 480px) and (max-device-width: 900px) and (orientation: landscape) {
-    justify-content: center;
+    justify-content: ${props => props.page === "Home" ? "flex-start" : "center"};
   }
   position: ${props => (props.nonabsolute ? "static" : "absolute")};
   background-color: ${props =>
@@ -29,7 +29,7 @@ export const NavbarChild = styled.div`
     justify-content: center;
   }
   @media only screen and (min-device-width: 480px) and (max-device-width: 900px) and (orientation: landscape) {
-    margin-left: 0;
+    margin-left: ${props => props.page === "Home" ? "70px" : "0"};
     justify-content: center;
   }
 `
