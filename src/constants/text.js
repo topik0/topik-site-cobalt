@@ -1,6 +1,6 @@
 export const SplashBio = `I'm a developer and tech enthusiast with a strong passion for technology. I have experience with frontend work with personal projects and client work.`
 export const AboutBio = `I have had an interest in computers and technology for as long as I can remember.  I started programming with frontend work and have stuck with that mostly since.  I've made many static sites, and a couple serious webapps.  Linux and open source software is another thing I love.  Having absolute freedom over one's device is something that I value.  I use Fedora Linux daily on one of my machines.  Computer hardware is another one of my interests.  The pace that modern hardware is progressing at is baffling to me.  I like many things and I'd love to chat about it with you, so feel free to join my Discord server in the Links section`
-export const description = `I'm a front-end web developer from Chicago with a strong passion for technology and code. I have serveral years of experience with making websites for projects and clients.`
+export const description = `I'm a developer and tech enthusiast with a strong passion for technology. I have experience with frontend work with personal projects and client work.`
 export const linksdesc = `A collection of useful links relating to me`
 export const SkillsetBio = [
   `Web Development with HTML/CSS, JS, React.js`,
