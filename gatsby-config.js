@@ -6,7 +6,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        icon: "./src/images/favicon.png",
+        icon: "./static/favicon.png",
       },
     },
   ],
@@ -16,6 +16,6 @@ module.exports = {
     description:
       "I'm a developer and tech enthusiast with a strong passion for technology. I have experience with frontend work with personal projects and client work.",
     url: "https://www.topik.tech",
-    image: "./src/images/favicon.png",
+    image: "./static/favicon.png",
   },
 }
