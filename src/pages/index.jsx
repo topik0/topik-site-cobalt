@@ -25,12 +25,12 @@ export default function Home() {
         <meta name="theme-color" content="#111" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://topik.tech/" />
-        <meta property="og:title" content="Topik Tech" />
+        <meta property="og:title" content="Hey, I'm Topik" />
         <meta property="og:description" content={description} />
         <meta property="og:image" content={previewLogo} />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://topik.tech/" />
-        <meta property="twitter:title" content="Topik Tech" />
+        <meta property="twitter:title" content="Hey, I'm Topik" />
         <meta property="twitter:description" content={description} />
         <meta property="twitter:image" content={previewLogo} />
       </Helmet>
