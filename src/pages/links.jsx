@@ -6,7 +6,7 @@ import { externals } from "../constants/links"
 import { BoldTitle } from "../styles/index.js"
 import { linksdesc } from "../constants/text"
 import { description } from "../constants/text"
-import previewLogo from "../../static/favicon.png"
+import previewLogo from "../../static/favicon-512.png"
 import { Helmet } from "react-helmet"
 
 export default function Links() {

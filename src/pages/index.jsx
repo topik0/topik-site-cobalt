@@ -12,7 +12,7 @@ import {
 import { MainContainer } from "../styles/primary.js"
 import { description, SplashBio } from "../constants/text"
 import logoSrc from "../images/favicon.svg"
-import previewLogo from "../../static/favicon.png"
+import previewLogo from "../../static/favicon-512.png"
 import Navbar from "../components/navbar/navbar.jsx"
 import { Helmet } from "react-helmet"
 

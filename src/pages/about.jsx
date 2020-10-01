@@ -9,7 +9,7 @@ import {
   CardBody,
 } from "../styles/about.js"
 import { AboutBio, SkillsetBio, RigBio, description } from "../constants/text"
-import previewLogo from "../../static/favicon.png"
+import previewLogo from "../../static/favicon-512.png"
 import { Helmet } from "react-helmet"
 
 export default function About() {

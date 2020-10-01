@@ -6,7 +6,7 @@ import {
   ButtonText,
   Container
 } from "../styles/primary.js"
-import previewLogo from "../../static/favicon.png"
+import previewLogo from "../../static/favicon-512.png"
 import { Helmet } from "react-helmet"
 
 export default function FourOFour() {
