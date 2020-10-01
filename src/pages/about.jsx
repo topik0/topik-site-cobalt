@@ -9,7 +9,7 @@ import {
   CardBody,
 } from "../styles/about.js"
 import { AboutBio, SkillsetBio, RigBio, description } from "../constants/text"
-import logoSrc from "../images/favicon.svg"
+import previewLogo from "../../static/favicon.png"
 import { Helmet } from "react-helmet"
 
 export default function About() {
@@ -23,12 +23,12 @@ export default function About() {
         <meta property="og:url" content="https://topik.tech/about" />
         <meta property="og:title" content="About - Topik Tech" />
         <meta property="og:description" content={description} />
-        <meta property="og:image" content={logoSrc} />
+        <meta property="og:image" content={previewLogo} />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://topik.tech/about" />
         <meta property="twitter:title" content="About - Topik Tech" />
         <meta property="twitter:description" content={description} />
-        <meta property="twitter:image" content={logoSrc} />
+        <meta property="twitter:image" content={previewLogo} />
       </Helmet>
       <Navbar nonabsolute theme="dark" page="About Me" />
       <ParentCardContainer>

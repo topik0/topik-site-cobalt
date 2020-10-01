@@ -12,6 +12,7 @@ import {
 import { MainContainer } from "../styles/primary.js"
 import { description, SplashBio } from "../constants/text"
 import logoSrc from "../images/favicon.svg"
+import previewLogo from "../../static/favicon.png"
 import Navbar from "../components/navbar/navbar.jsx"
 import { Helmet } from "react-helmet"
 
@@ -26,12 +27,12 @@ export default function Home() {
         <meta property="og:url" content="https://topik.tech/" />
         <meta property="og:title" content="Topik Tech" />
         <meta property="og:description" content={description} />
-        <meta property="og:image" content={logoSrc} />
+        <meta property="og:image" content={previewLogo} />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://topik.tech/" />
         <meta property="twitter:title" content="Topik Tech" />
         <meta property="twitter:description" content={description} />
-        <meta property="twitter:image" content={logoSrc} />
+        <meta property="twitter:image" content={previewLogo} />
       </Helmet>
       <Navbar page="Home" />
       <LeftContainer>

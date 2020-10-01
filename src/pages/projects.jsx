@@ -6,7 +6,7 @@ import {
   Container,
   MediumSplash,
 } from "../styles/primary.js"
-import logoSrc from "../images/favicon.svg"
+import previewLogo from "../../static/favicon.png"
 import { Helmet } from "react-helmet"
 
 export default function Projects() {
@@ -23,11 +23,11 @@ export default function Projects() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://topik.tech/projects" />
         <meta property="og:title" content="My Projects - Topik Tech" />
-        <meta property="og:image" content={logoSrc} />
+        <meta property="og:image" content={previewLogo} />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://topik.tech/projects" />
         <meta property="twitter:title" content="My Projects - Topik Tech" />
-        <meta property="twitter:image" content={logoSrc} />
+        <meta property="twitter:image" content={previewLogo} />
       </Helmet>
       <MediumSplash>Coming Soon</MediumSplash>
       <Paragraph align="center">I'm still working on this page</Paragraph>
