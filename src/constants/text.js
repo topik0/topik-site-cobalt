@@ -19,6 +19,7 @@ export const RigBio = [
   `Phanteks P300a`,
   `Phanteks AMP 600W`,
   `MSI Optix G241 (1080p, 144hz, 23.8”)`,
-  `HP VH240a (1080, 60hz, 23.8”)`,
+  `HP VH240a (1080p, 60hz, 23.8”)`,
+  `Dell E198FP (1280p, 75hz, 16.3")`,
   `Cooler Master Sk650 keyboard`,
 ]
