@@ -7,6 +7,6 @@ export const links = [
 export const externals = [
   { label: "Discord", url: "https://discord.gg/4dcggAS" },
   { label: "GitHub", url: "https://github.com/topik0" },
-  { label: "Email", url: "mailto:topik@topik.tech" },
+  { label: "Email", url: "mailto:daniel@topik.tech" },
   { label: "Dev.to", url: "https://dev.to/topik0" },
 ]
