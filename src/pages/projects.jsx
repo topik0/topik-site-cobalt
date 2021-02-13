@@ -26,7 +26,7 @@ export default function Projects() {
         <meta property="og:image" content={previewLogo} />
         <meta property="og:image:width" content="300" />
         <meta property="og:image:height" content="300" />
-        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:card" content="summary" />
         <meta property="twitter:url" content="https://topik.tech/projects" />
         <meta property="twitter:title" content="My Projects - Topik Tech" />
         <meta property="twitter:image" content={previewLogo} />

@@ -28,7 +28,7 @@ export default function FourOFour() {
         <meta property="og:image" content={previewLogo} />
         <meta property="og:image:width" content="300" />
         <meta property="og:image:height" content="300" />
-        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:card" content="summary" />
         <meta property="twitter:url" content="https://topik.tech/" />
         <meta property="twitter:title" content="404 - Topik Tech" />
         <meta property="twitter:description" content="The page you are looking for doesn't exist" />
